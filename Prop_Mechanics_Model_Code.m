@@ -12,6 +12,7 @@
 % outer radius 1.5 inches -> fuel grain
 % inner radius .99 inches
 % total length 38.64 inches
+%
 % a(N2O) = 3.852 bar L^2/mol^2
 % b(N2O) = 0.04435 L/mol
 % density 935kg/m
@@ -42,7 +43,7 @@ M_H2O = 18.02; %g/mol
 P_N2O = 550; %psi
 
 % Temperature Values
-T_N2O = 0; %Kelvin, Calculate
+T_N2O = 280; %Kelvin, Estimate based on paper
 
 % Critical Temperature
 Tc_N2O = 309.57;
