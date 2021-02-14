@@ -25,7 +25,7 @@
 
 % Constants
 R = 0.1889; %kj/kg * K
-Z_N20 = 0.7; %Compressibility for N2O
+Z_N2O = 0.7; %Compressibility for N2O
 
 % Reactants Molecular Mass
 M_N2O = 44.013; %g/mol
@@ -59,6 +59,13 @@ PR_N2O = P_N2O / Pc_N2O; % reduced N2O pressure
 TR_N2O = T_N2O / Tc_N2O; %reduced N2O temp
 OP_ratio = (M_N2O * N_N2O) / (M_C2H4 * N_C2H4); %-> Calculate Normalities
 
+%Ideal Pressure Calculation of N2O
+
+Pid_N2O = P_N2O / (R_N2O * T_N2O); %kg / m^3
+
+%Actual Pressure Calculation of N2O
+
+Pac_N2O = Pid_N2O / Z_N2O;
 
 
 
