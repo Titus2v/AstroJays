@@ -42,6 +42,9 @@ P_N2O = 550; %psi
 % Temperature Values
 T_N2O = 0; %Kelvin, Calculate
 
+% Critical Temperature
+Tc_N2O = 309.57;
+
 % Critical Pressures
 Pc_N2O = 1050.8; %psi
 
@@ -54,7 +57,7 @@ N_C2H4 = 1; %Calculate
 
 PR_N2O = P_N2O / Pc_N2O; % reduced N2O pressure
 TR_N2O = T_N2O / Tc_N2O; %reduced N2O temp
-OP_ratio = (M_N2O * N_N20) / (M_C2H4 * N_C2H4); %-> Calculate Normalities
+OP_ratio = (M_N2O * N_N2O) / (M_C2H4 * N_C2H4); %-> Calculate Normalities
 
 
 
