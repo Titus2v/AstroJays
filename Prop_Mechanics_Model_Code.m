@@ -47,8 +47,8 @@ Pc_N2O = 1050.8; %psi
 
 % Normality Values
 
-N_N2O = 85; %Assume to be 85
-N_C2H4 = 0; %Calculate
+N_N2O = 6; %Assume to be 85
+N_C2H4 = 1; %Calculate
 
 % Reduced Values
 
