@@ -1,6 +1,6 @@
+%Author: Shalom Cesar
 function [actual_den] = actual_density(compress, pressure, temp, r)
-%ACTUAL_DENSITY Summary of this function goes here
-%   Detailed explanation goes here
+%ACTUAL_DENSITY Calculates the actual density of a gas
 id = ideal_density(pressure, temp, r);
 actual_den = id / compress;
 end
