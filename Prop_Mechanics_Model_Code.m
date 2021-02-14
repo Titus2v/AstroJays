@@ -12,6 +12,8 @@
 % outer radius 1.5 inches -> fuel grain
 % inner radius .99 inches
 % total length 38.64 inches
+% a(N2O) = 3.852 bar L^2/mol^2
+% b(N2O) = 0.04435 L/mol
 % density 935kg/m
 % N2O -> calculate
 % .75148 -> volume in meters cube 
