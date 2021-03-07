@@ -16,6 +16,8 @@
 % polyethylene density = 0.941 - 0.98 g/cm^3
 % polyethylene molar mass = 200,000 - 500,000 g/mol
 %
+% current nitrous oxide flow rate is 0.4 kg / sec
+%
 % a(N2O) = 3.852 bar L^2/mol^2
 % b(N2O) = 0.04435 L/mol
 % density 935kg/m
@@ -72,6 +74,14 @@ Pid_N2O = P_N2O / (R * T_N2O); %kg / m^3
 %Actual Density Calculation of N2O
 
 den_N2O = actual_density(0.7, P_N2O, T_N2O, R);
+
+%Current Predicted N2O Mass Flow Rate
+
+N2O_mF = 0.4; % kg / sec
+
+%Current Predicted HDPE Mass Flow Rate
+
+HDPE_mF = N2O_mF / OP_ratio; % kg / sec
 
 
 
