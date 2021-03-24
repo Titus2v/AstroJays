@@ -62,7 +62,7 @@ N2O_mF = 0.4; % kg / sec
 
 HDPE_mF = N2O_mF / OP_ratio; % kg / sec
 
-[HF_N2,HF_H20,HF_CO2] = calculating_DH();
+[HF_N2,HF_H20,HF_CO2] = Calculating_DH();
 
 
 
