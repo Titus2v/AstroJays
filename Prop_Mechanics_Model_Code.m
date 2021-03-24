@@ -12,6 +12,9 @@
 %Our Stoichimetric Relationship:
 % C2H4 + 6N2O -> 2CO2 + 6N2 + 2H2O
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%MASS FLOW RATE
+
 % Constants
 R = 0.1889; %kj/kg * K
 Z_N2O = 0.7; %Compressibility for N2O
@@ -19,11 +22,6 @@ Z_N2O = 0.7; %Compressibility for N2O
 % Reactants Molecular Mass
 M_N2O = 44.013; %g/mol
 M_C2H4 = 28.05; %g/mol
-
-% Products Molecular Mass
-M_C02 = 44.01; %g/mol
-M_N2 = 28.01; %g/mol
-M_H2O = 18.02; %g/mol
 
 % Pressure Values 
 P_N2O = 3792.12; %kPa
