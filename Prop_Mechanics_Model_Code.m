@@ -8,28 +8,9 @@
 % DATA
 % t = 400 k
 % p = 550 psi (nozzle)
-% ideal rocket 275 psi (nozzle)
-% outer radius 1.5 inches -> fuel grain
-% inner radius .99 inches
-% total length 38.64 inches
-%
-% polyethylene density = 0.941 - 0.98 g/cm^3
-% polyethylene molar mass = 200,000 - 500,000 g/mol
-%
-% current nitrous oxide flow rate is 0.4 kg / sec
-%
-% a(N2O) = 3.852 bar L^2/mol^2
-% b(N2O) = 0.04435 L/mol
-% density 935kg/m
-% N2O -> calculate
-% .75148 -> volume in meters cube 
-% 50 degrees
 
 %Our Stoichimetric Relationship:
 % C2H4 + 6N2O -> 2CO2 + 6N2 + 2H2O
-
-% NOTES
-% Ask Ariana -> The Temperature of N2O, the Time we need to stay in the air
 
 % Constants
 R = 0.1889; %kj/kg * K
