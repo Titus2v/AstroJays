@@ -1,5 +1,5 @@
 % This is MATLAB code for propulsion mechanic calculations.
-% Team: Zal, Rishi, Lucas, Shalom
+% Team: Zal, Rishi, Lucas, Shalom,Fanuel
 %
 % This code focuses on taking the research paper, "Numerical_Model" as a
 % template and re-modeling those calculations to suit our rocket, which
