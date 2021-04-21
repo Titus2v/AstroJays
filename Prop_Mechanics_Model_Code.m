@@ -60,7 +60,7 @@ N2O_mF = 0.4; % kg / sec
 
 %Current Predicted HDPE Mass Flow Rate
 
-HDPE_mF = N2O_mF / OP_ratio; % kg / sec
+HDPE_mF = N2O_mF / OP_ratio % kg / sec
 
 [HF_N2,HF_H20,HF_CO2] = Calculating_DH();
 
