@@ -6,3 +6,4 @@ https://www.engineeringtoolbox.com/overall-heat-transfer-coefficient-d_434.html
 http://hyperphysics.phy-astr.gsu.edu/hbase/Tables/thrcn.html
 http://www.substech.com/dokuwiki/doku.php?id=thermoplastic_high_density_polyethylene_hdpe
 https://materials.springer.com/polymerthermodynamics/docs/athas_0016
+https://www.ohio.edu/mechanical/thermo/property_tables/combustion/Enth_Formation.html
